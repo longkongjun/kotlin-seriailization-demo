@@ -1,2 +1,2 @@
-# kotlin-seriailization-demo
-kotlin-seriailization deep learning and coding traning
+# kotlin-serialization-demo
+kotlin-serialization deep learning and coding training
