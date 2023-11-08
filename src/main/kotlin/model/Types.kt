@@ -13,7 +13,7 @@ enum class Subject(val type: Int, val nameCn: String) {
 }
 
 @Serializable
-class SubjectInfo(
+data class SubjectInfo(
     val subjectType: Int,
     val desc: String
 )
