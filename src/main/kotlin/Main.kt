@@ -1,7 +1,5 @@
-import model.SubjectType
+import model.SubjectInfo
 
-fun main(args: Array<String>) {
-
-    println("Program arguments: ${SubjectType.serializer().descriptor}")
-
+fun main() {
+    println(SubjectInfo.serializer())
 }

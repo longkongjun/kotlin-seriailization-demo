@@ -1,9 +1,6 @@
-@file:UseSerializers(SubjectAsIntSerializer::class)
 package model
 
 import kotlinx.serialization.Serializable
-import kotlinx.serialization.UseSerializers
-import serializer.SubjectAsIntSerializer
 
 @Serializable
 enum class Subject(val type: Int, val nameCn: String) {
