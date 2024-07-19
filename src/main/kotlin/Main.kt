@@ -16,7 +16,7 @@ fun main() {
         }
     }
 
-    println(json.encodeToString(cities()))
+    println(json.encodeToString(projects()))
 }
 
 private fun animals(): List<Animal> {
@@ -43,5 +43,13 @@ private fun cities(): List<City> {
         Shanghai,
         Hangzhou("hangzhou"),
         NingBo,
+    )
+}
+
+private fun projects(): List<Project> {
+    return listOf(
+        Project("base"),
+        PublicProject("public", "key2"),
+        PrivateProject("private", "password"),
     )
 }
